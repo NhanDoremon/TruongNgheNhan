@@ -1,0 +1,66 @@
+#about .section-head{margin-bottom:25px}
+#about .section-head h2{font-size:clamp(38px,5vw,62px);line-height:1.08}
+.profile-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(260px,.85fr);gap:20px;align-items:start}
+.profile-story,.profile-focus{background:#fff;border:1px solid #dce8e9;border-radius:16px;padding:34px}
+.profile-overline,.profile-path-caption{font-size:10px;font-weight:800;letter-spacing:1.8px;color:#258b8f}
+.profile-overline span{color:#bdc9ce;padding:0 4px}
+.profile-lead{font:700 clamp(19px,2vw,26px)/1.45 Manrope,sans-serif;color:#142d3d!important;margin:15px 0 19px!important}
+.profile-story p:not(.profile-lead){font-size:14px;line-height:1.85;color:#526975;margin:0 0 13px}
+.profile-story strong{color:#183e49}
+.profile-credentials{display:flex;flex-wrap:wrap;gap:9px;margin-top:21px}
+.profile-credentials span{background:#edf6f5;color:#365e63;padding:9px 12px;border-radius:7px;font-size:12px}
+.profile-credentials small{color:#789096;margin-left:5px}
+.profile-mini-metrics{display:flex;flex-wrap:wrap;gap:17px;margin:20px 0 0;color:#799096;font-size:11px}
+.profile-mini-metrics b{color:#268588;font-size:15px;margin-right:3px}
+.profile-paths{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:24px;padding-top:19px;border-top:1px solid #e2eaeb}
+.profile-path-caption{margin-right:8px}
+.profile-paths a{display:inline-flex;gap:10px;align-items:center;border:1px solid #c9dbdc;border-radius:6px;padding:9px 13px;background:#f8fcfb;color:#27545b;text-decoration:none;font-size:12px;font-weight:800;transition:.2s}
+.profile-paths a:hover{background:#d8f1ed;transform:translateY(-2px)}
+.profile-focus h3{font-size:22px;margin:12px 0 19px;color:#152f3e}
+.profile-focus ul{list-style:none;margin:0;padding:0}
+.profile-focus li{display:flex;gap:12px;border-top:1px solid #e6eeee;padding:17px 0}
+.profile-focus li>span{font-size:11px;font-weight:800;color:#62a6a7;padding-top:2px}
+.profile-focus li strong{display:block;font-size:13px;color:#29414b;line-height:1.5}
+.profile-focus li small{display:block;font-size:11px;line-height:1.6;color:#7d939b;margin-top:5px}
+.language-snapshot{border-top:1px solid #e4eaea;margin-top:25px;padding-top:19px}
+.language-snapshot>div:not(.mini-label){display:flex;justify-content:space-between;gap:14px;font-size:12px;padding:9px 0;color:#4b6671;border-bottom:1px solid #edf1f0}
+.language-snapshot b{color:#243c47}.language-snapshot span{text-align:right;color:#6f858f}
+#courses .section-head{margin-bottom:22px}
+#courses .section-head h2{font-size:clamp(27px,3.2vw,40px)}
+#courses .course-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+#courses .course-card{padding:17px 19px;display:grid;grid-template-columns:84px minmax(0,1fr);column-gap:18px;align-items:start}
+#courses .course-thumb{grid-row:span 5;width:84px;height:84px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:4px;background:linear-gradient(140deg,#132f42,#326870);border-radius:9px;color:#d9efea;font-size:9px;letter-spacing:.2px;position:relative;overflow:hidden}
+#courses .course-thumb::before{content:"";position:absolute;inset:10px;border:1px solid #74a6a47a;border-radius:7px}
+#courses .course-thumb.fpga{background:linear-gradient(140deg,#203a54,#567089)}
+#courses .course-device{font-size:26px;font-weight:800;color:#92e0d4;z-index:1}
+#courses .course-thumb>span:last-child{z-index:1}
+#courses .course-card h3{font-size:16px;line-height:1.4;margin:5px 0 7px}
+#courses .course-card p{font-size:11px;line-height:1.55;margin:0 0 8px}
+#courses .course-label{font-size:9px;letter-spacing:1px}
+#courses .course-meta{margin:0;padding-top:5px;gap:5px}
+#courses .course-meta span{font-size:9px;padding:4px 6px}
+#courses .course-card details{margin-top:8px;padding-top:7px}
+#courses .course-card .course-link{margin-top:10px;font-size:11px}
+body.theme-light .profile-story,body.theme-light .profile-focus{background:#fffdf8;border-color:#e7ded1}
+body.theme-light .profile-paths a{background:#fff8ed;border-color:#e6d6c0;color:#9a654c}
+body.theme-light .profile-paths a:hover{background:#f6e9d7}
+body.theme-light .profile-overline,body.theme-light .profile-path-caption,body.theme-light .profile-mini-metrics b{color:#aa7650}
+body.theme-light .profile-credentials span{background:#faeee0;color:#815d4a}
+@media(max-width:900px){.profile-layout{grid-template-columns:1fr}.profile-story,.profile-focus{padding:25px}.profile-focus ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:18px}#courses .course-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.profile-story,.profile-focus{padding:20px}.profile-focus ul{grid-template-columns:1fr}.profile-paths{align-items:stretch}.profile-path-caption{width:100%}#courses .course-card{grid-template-columns:65px minmax(0,1fr);gap:10px;padding:13px}#courses .course-thumb{width:65px;height:65px}#courses .course-card h3{font-size:14px}}
+.profile-intro-with-photo{display:grid;grid-template-columns:152px minmax(0,1fr);gap:22px;align-items:start}
+.profile-photo{display:block;width:152px;height:200px;object-fit:cover;object-position:center;border-radius:12px;border:1px solid #d5e5e4;background:#e9eeee}
+.profile-intro-with-photo .profile-lead{font-size:19px;line-height:1.48;margin:10px 0 12px!important}
+.profile-intro-with-photo p:not(.profile-lead){font-size:13px;line-height:1.75}
+.profile-education{margin-top:17px;padding-top:17px;border-top:1px solid #e2eaeb}
+.profile-education .timeline{margin-top:15px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.profile-education .timeline-item{margin:0;padding-top:0;padding-bottom:0}
+.profile-education .timeline-item strong{font-size:12px;line-height:1.5;display:block}
+.profile-education .timeline-item small{font-size:11px;line-height:1.5;display:block;margin-top:5px}
+.profile-paths{gap:7px}
+.profile-paths a{padding:8px 10px;font-size:11px;gap:6px;white-space:nowrap}
+.profile-path-caption{width:100%;margin-bottom:3px}
+.profile-paths .link-count{font-size:10px;color:#6f9095;font-weight:700}
+body.theme-light .profile-paths .link-count{color:#a77e67}
+@media(max-width:650px){.profile-intro-with-photo{grid-template-columns:105px minmax(0,1fr);gap:13px}.profile-photo{width:105px;height:145px}.profile-intro-with-photo .profile-lead{font-size:16px}.profile-education .timeline{grid-template-columns:1fr}}
+@media(max-width:420px){.profile-intro-with-photo{grid-template-columns:1fr}.profile-photo{width:135px;height:165px}.profile-paths a{white-space:normal}}
