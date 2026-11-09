@@ -1,0 +1,289 @@
+.theme-picker{position:fixed;bottom:22px;right:22px;z-index:50;background:#fff;border:1px solid #dbe5e7;box-shadow:0 12px 42px #03131d25;border-radius:13px;padding:11px;display:flex;gap:7px;align-items:center}.theme-picker strong{font:800 10px Manrope;letter-spacing:1px;margin:0 7px;color:#506675}.theme-choice{display:flex;align-items:center;gap:6px;border:1px solid #dbe5e7;border-radius:8px;background:#fff;padding:7px 9px;font-size:11px;font-weight:800;color:#536b75}.theme-choice[aria-pressed=true]{border-color:#158d90;box-shadow:0 0 0 2px #128c9024;color:#0b666e}.theme-dot{display:inline-block;width:14px;height:14px;border-radius:50%;border:1px solid #9996}.theme-dot.original{background:linear-gradient(135deg,#0b1724 50%,#89dacc 50%)}.theme-dot.light{background:linear-gradient(135deg,#f8f3e8 50%,#ae6a44 50%)}.theme-dot.graphite{background:linear-gradient(135deg,#171820 50%,#beabf4 50%)}
+/* Palette 2 — Light Editorial: warm ivory, ink and copper */
+body.theme-light{--ink:#25323a;--muted:#68747b;--line:#e6dfd5;--accent:#a7623f;--dark:#f7f2e9;--paper:#f9f6f0;background:#f9f6f0;color:#25323a}body.theme-light .nav{background:#fffcf6f2;border-color:#e5ded4}body.theme-light .navlinks a,body.theme-light .links a{color:#4b555a}body.theme-light .hero{background:radial-gradient(circle at 77% 40%,#e4d5bf 0,transparent 40%),linear-gradient(125deg,#fbf8f0,#efe6d8)!important;color:#25323a}body.theme-light .hero:before{background:radial-gradient(circle at 73% 35%,#ebdac8 0,transparent 43%)!important}body.theme-light .identity-hero h1{color:#1f3037}body.theme-light .identity-hero h1 span{color:#a45d3b}body.theme-light .identity-role{color:#38474b}body.theme-light .identity-role span{color:#af724d!important}body.theme-light .identity-summary,body.theme-light .hero p{color:#55616a}body.theme-light .hero .eyebrow{color:#a15b37}body.theme-light .identity-meta span{background:#ffffff99;border-color:#d7c8b6;color:#654f43}body.theme-light .identity-portrait:before{border-color:#bf8d70}body.theme-light .identity-portrait .photolabel{background:#fffaf1;color:#74482e}body.theme-light .identity-mark{border-color:#b78970;color:#97603c}body.theme-light .hero .btn-primary{background:#ab6540;border-color:#ab6540;color:white}body.theme-light .hero .btn-outline{background:#ffffff6b;border-color:#ad9986;color:#704a35}body.theme-light .hero-foot{border-color:#d8c9b8}body.theme-light .hero-foot .container,body.theme-light .hero-foot strong{color:#54636a}body.theme-light .section.alt{background:#f1ede5}body.theme-light .panel,body.theme-light .path-card:not(.industry),body.theme-light .expand-card,body.theme-light .old-project,body.theme-light .actual-pub,body.theme-light .project,body.theme-light .skill,body.theme-light .pub{background:#fffdf8;border-color:#e7ded1}body.theme-light .path-card.industry,body.theme-light .expand-card header{background:#665447;border-color:#665447}body.theme-light .path-card .path-num,body.theme-light .kicker,body.theme-light .section-head .eyelabel{color:#a45f3d}body.theme-light .path-card.industry .path-num{color:#f2cdb3}body.theme-light .path-card .arrow{color:#ae704b}body.theme-light .path-card.industry .arrow{color:#f1d4b9}body.theme-light .path-card .small-tags span,body.theme-light .pill,body.theme-light .tag{background:#f9eee3;border-color:#f0decf;color:#8c583a}body.theme-light .path-card.industry .small-tags span{background:#ffffff20;color:#fff2e7}body.theme-light .expand-toggle,body.theme-light .details-btn,body.theme-light .filter.active{background:#9e623f;color:#fff;border-color:#9e623f}body.theme-light .expanded{background:#f8f2ea}body.theme-light .expanded details,body.theme-light .aspect{background:#fffdf9;border-color:#e8dfd3}body.theme-light .actual-pub .pub-status,body.theme-light .pub-status{background:#f6e7d7;color:#9b5b37}body.theme-light .contact{background:#403b37}body.theme-light .footer{background:#302c29}
+/* Palette 3 — Dark Graphite: charcoal, ice and violet */
+body.theme-graphite{--ink:#edf0f7;--muted:#aeb7c7;--line:#363947;--accent:#b7a4f3;--dark:#14151c;--paper:#181a22;background:#181a22;color:#edf0f7}body.theme-graphite .nav{background:#171920f2;border-color:#383b48}body.theme-graphite .brand,body.theme-graphite .navlinks a,body.theme-graphite .links a{color:#e3e7f0}body.theme-graphite .hero{background:radial-gradient(circle at 79% 43%,#3e365e 0,transparent 39%),linear-gradient(125deg,#111218,#232331)!important}body.theme-graphite .hero:before{background:radial-gradient(circle at 78% 39%,#453b60 0,transparent 40%)!important}body.theme-graphite .identity-hero h1 span{color:#c0aff3}body.theme-graphite .identity-hero .eyebrow{color:#c7b6f2}body.theme-graphite .identity-role{color:#eff0f9}body.theme-graphite .identity-role span{color:#bea9fa!important}body.theme-graphite .identity-summary{color:#b5bdca}body.theme-graphite .identity-meta span{background:#ffffff0d;border-color:#6a617f;color:#d6d3e4}body.theme-graphite .identity-portrait:before{border-color:#b5a2ee}body.theme-graphite .identity-mark{border-color:#c2b2ed;color:#cbbff0}body.theme-graphite .identity-portrait .photolabel{background:#e3def8;color:#423a66}body.theme-graphite .hero .btn-primary{background:#c2b1f4;color:#27233c;border-color:#c2b1f4}body.theme-graphite .hero .btn-outline{border-color:#817c95;color:#eee9ff}body.theme-graphite .hero-foot{border-color:#4a435c}body.theme-graphite .hero-foot .container{color:#b7b6c8}body.theme-graphite .section.alt{background:#20222d}body.theme-graphite .section-head p,body.theme-graphite .section-lede,body.theme-graphite .intro,body.theme-graphite .academic-intro{color:#abb4c4}body.theme-graphite .panel,body.theme-graphite .path-card:not(.industry),body.theme-graphite .expand-card,body.theme-graphite .old-project,body.theme-graphite .actual-pub,body.theme-graphite .project,body.theme-graphite .skill,body.theme-graphite .pub{background:#252733;border-color:#393c4d;color:#eef0f7}body.theme-graphite .panel p,body.theme-graphite .path-card p,body.theme-graphite .expand-card p,body.theme-graphite .old-project p,body.theme-graphite .actual-pub p,body.theme-graphite .timeline-item p{color:#abb5c4}body.theme-graphite .path-card.industry,body.theme-graphite .expand-card header{background:#39304d;border-color:#534663}body.theme-graphite .path-card .path-num,body.theme-graphite .kicker,body.theme-graphite .section-head .eyelabel{color:#c2aaf4}body.theme-graphite .path-card.industry .path-num{color:#d5c4ff}body.theme-graphite .path-card .arrow{color:#bda9f3}body.theme-graphite .path-card .small-tags span,body.theme-graphite .pill,body.theme-graphite .tag{background:#403851;border-color:#524864;color:#dfd2fc}body.theme-graphite .path-card.industry .small-tags span{background:#ffffff1a;color:#eee4ff}body.theme-graphite .expand-toggle,body.theme-graphite .details-btn,body.theme-graphite .filter.active{background:#b2a0e8;color:#211b35;border-color:#b2a0e8}body.theme-graphite .expanded{background:#20232d;border-color:#414354}body.theme-graphite .expanded details,body.theme-graphite .aspect{background:#292b38;border-color:#46485a;color:#ebedf7}body.theme-graphite .expanded summary,body.theme-graphite .aspect summary{color:#eeeefa}body.theme-graphite .video-slot,body.theme-graphite .media-slot{background:#333448;border-color:#55516e;color:#c6bfdc}body.theme-graphite .actual-pub .pub-status,body.theme-graphite .pub-status{background:#44395e;color:#d6c7ff}body.theme-graphite .filter{background:#2c2e3a;border-color:#47495c;color:#d4d9e6}body.theme-graphite .old-project a,body.theme-graphite .project-links a,body.theme-graphite .link{color:#c4b3fb}body.theme-graphite .contact{background:#101116}body.theme-graphite .footer{background:#0b0c11}body.theme-graphite .focus{background:#302d40;border-color:#47425a}body.theme-graphite .focus h3{color:#eeeafb}body.theme-graphite .focus p{color:#b6b3cb}body.theme-graphite .skill-list span{background:#3b3e4d;color:#d8dce7}body.theme-graphite .timeline-item:before{background:#b8a6ed;border-color:#38334b}
+@media(max-width:700px){.theme-picker{bottom:10px;right:10px;left:10px;justify-content:center;padding:8px;box-shadow:0 8px 25px #0003}.theme-picker strong{display:none}.theme-choice{font-size:10px;padding:7px}.footer{padding-bottom:80px}}
+
+/* ==========================================================================
+   Comprehensive Light Theme (Editorial Palette) Overrides
+   ========================================================================== */
+
+/* 1. Hero Section */
+body.theme-light .identity-summary {
+  color: #5d4e43 !important;
+}
+body.theme-light .identity-meta span {
+  background: #efe5d6 !important;
+  border: 1px solid #dcd0be !important;
+  color: #5c4739 !important;
+}
+body.theme-light .identity-hero .btn-primary {
+  background: #a45d3b !important;
+  color: #ffffff !important;
+  border: 1px solid #a45d3b !important;
+  box-shadow: 0 4px 14px rgba(164, 93, 59, 0.28) !important;
+}
+body.theme-light .identity-hero .btn-primary:hover {
+  background: #884828 !important;
+  border-color: #884828 !important;
+  color: #ffffff !important;
+}
+body.theme-light .identity-hero .btn-outline {
+  color: #553e31 !important;
+  border: 1px solid #caa890 !important;
+  background: #ffffffa6 !important;
+}
+body.theme-light .identity-hero .btn-outline:hover {
+  border-color: #884828 !important;
+  color: #884828 !important;
+  background: #ffffff !important;
+}
+body.theme-light .hero-foot {
+  border-top-color: #dfd2be !important;
+  background: rgba(245, 237, 226, 0.75) !important;
+  color: #695e54 !important;
+}
+body.theme-light .hero-foot strong {
+  color: #3b2f28 !important;
+}
+
+/* 2. About Me: Research Focus Numbers & Education Timeline */
+body.theme-light .profile-focus li > span {
+  color: #a45d3b !important;
+}
+body.theme-light .profile-focus ul li {
+  border-top-color: #ede5da !important;
+}
+body.theme-light .profile-focus h3 {
+  color: #233139 !important;
+}
+body.theme-light .profile-focus li strong {
+  color: #233139 !important;
+}
+body.theme-light .profile-focus li small {
+  color: #6e645a !important;
+}
+
+/* Timeline: Education & Professional Experience dots and vertical line */
+body.theme-light .timeline {
+  border-left-color: #dfd3c3 !important;
+}
+body.theme-light .timeline-item:before {
+  background: #a45d3b !important;
+  border: 3px solid #f9f5ee !important;
+}
+body.theme-light .timeline-item strong {
+  color: #233139 !important;
+}
+body.theme-light .timeline-item small {
+  color: #73685e !important;
+}
+body.theme-light .timeline-item p {
+  color: #4f5f67 !important;
+}
+body.theme-light .profile-education {
+  border-top-color: #e7ded1 !important;
+}
+
+/* 3. Academic Links */
+body.theme-light .project-links a {
+  color: #a45d3b !important;
+  text-decoration: underline !important;
+}
+body.theme-light .project-links a:hover {
+  color: #7e3e22 !important;
+}
+
+/* 4. Teaching & Course Resources */
+body.theme-light #courses .section-head .course-intro {
+  color: #5d534b !important;
+}
+body.theme-light .course-card {
+  background: #fffdf8 !important;
+  border-color: #e7ded1 !important;
+}
+body.theme-light .course-label {
+  color: #a45d3b !important;
+}
+body.theme-light .course-card h3 {
+  color: #223038 !important;
+}
+body.theme-light .course-card p {
+  color: #5b6971 !important;
+}
+body.theme-light .course-meta span {
+  background: #f8eee1 !important;
+  border: 1px solid #e8d9c6 !important;
+  color: #87553b !important;
+}
+body.theme-light .course-card details summary {
+  color: #a45d3b !important;
+}
+body.theme-light .course-link {
+  color: #a45d3b !important;
+}
+
+/* Device badge text inside course thumb (FPGA, uC, etc.) */
+body.theme-light #courses .course-device {
+  color: #ffd8a8 !important;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9) !important;
+}
+body.theme-light #courses .course-thumb > span {
+  color: #fff2e0 !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.85) !important;
+}
+body.theme-light #courses .course-thumb::before {
+  border-color: rgba(255, 225, 195, 0.55) !important;
+}
+
+/* 5. Publications in Light Mode */
+body.theme-light .pub-notice {
+  font-size: 11.5px !important;
+  color: #7a6e65 !important;
+  font-style: italic !important;
+}
+body.theme-light .pub-link-btn {
+  background: #f6efe4 !important;
+  color: #9c5c39 !important;
+  border-color: #e4d5c1 !important;
+}
+body.theme-light .pub-link-btn:hover {
+  background: #a45d3b !important;
+  color: #ffffff !important;
+  border-color: #a45d3b !important;
+  box-shadow: 0 3px 8px rgba(164, 93, 59, 0.28) !important;
+}
+body.theme-light .actual-pub .pub-role {
+  background: #f4ecdf !important;
+  color: #87553a !important;
+}
+body.theme-light .pub-status {
+  background: #eaf5ee !important;
+  color: #287747 !important;
+  border: 1px solid #c9e6d3 !important;
+}
+body.theme-light .pub-status.accepted {
+  background: #fef3e7 !important;
+  color: #b4621c !important;
+  border: 1px solid #f6d2b2 !important;
+}
+body.theme-light .pub-status.manuscript {
+  background: #f4eff9 !important;
+  color: #645095 !important;
+  border: 1px solid #dcceee !important;
+}
+body.theme-light .pub-field label,
+body.theme-light .pub-count,
+body.theme-light #publications .note {
+  color: #72685f !important;
+}
+body.theme-light .pub-field select {
+  background: #fffdf8 !important;
+  border-color: #dacfc0 !important;
+  color: #3b2e25 !important;
+}
+
+/* 6. Section 05 / Get in touch (Contact) */
+body.theme-light .contact {
+  background: #ede5da !important;
+  color: #25323a !important;
+  border-top: 1px solid #dfd4c4 !important;
+  border-bottom: 1px solid #dfd4c4 !important;
+}
+body.theme-light .contact .kicker {
+  color: #a45d3b !important;
+}
+body.theme-light .contact h2 {
+  color: #1c282f !important;
+}
+body.theme-light .contact p {
+  color: #5b6a72 !important;
+}
+body.theme-light .contact .btn-primary {
+  background: #a45d3b !important;
+  color: #ffffff !important;
+  border: 1px solid #a45d3b !important;
+  box-shadow: 0 4px 16px rgba(164, 93, 59, 0.3) !important;
+}
+body.theme-light .contact .btn-primary:hover {
+  background: #884828 !important;
+  border-color: #884828 !important;
+  color: #ffffff !important;
+}
+body.theme-light .contact .btn-outline {
+  background: #fffdfa !important;
+  color: #43332a !important;
+  border: 1px solid #c9b7a4 !important;
+}
+body.theme-light .contact .btn-outline:hover {
+  background: #ffffff !important;
+  border-color: #a45d3b !important;
+  color: #a45d3b !important;
+}
+
+/* 7. Footer & Visitor Counter */
+body.theme-light .footer {
+  background: #dfd5c7 !important;
+  border-top: 1px solid #d3c7b5 !important;
+  color: #62574e !important;
+}
+body.theme-light .footer a {
+  color: #8e5030 !important;
+}
+body.theme-light .footer a:hover {
+  color: #6e3d24 !important;
+}
+body.theme-light .footer-counter {
+  background: rgba(164, 93, 59, 0.08) !important;
+  border: 1px solid rgba(164, 93, 59, 0.18) !important;
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+
+/* 8. Portfolio Cards (Applied & Academic) */
+body.theme-light .portfolio-card {
+  background: #fffdf8 !important;
+  border-color: #e7ded1 !important;
+}
+body.theme-light .portfolio-body h3 {
+  color: #223038 !important;
+}
+body.theme-light .portfolio-body p {
+  color: #5b6971 !important;
+}
+body.theme-light .portfolio-body .area {
+  color: #a45d3b !important;
+}
+body.theme-light .portfolio-tags span {
+  background: #f8eee2 !important;
+  border-color: #ebdacf !important;
+  color: #8c583a !important;
+}
+body.theme-light .portfolio-body a {
+  color: #a45d3b !important;
+}
+
+body.theme-light .pub-notice.accepted {
+  background: #fef3e7 !important;
+  color: #b4621c !important;
+  border: 1px solid #f6d2b2 !important;
+}
+body.theme-light .pub-notice.manuscript {
+  background: #f4eff9 !important;
+  color: #645095 !important;
+  border: 1px solid #dcceee !important;
+}
+
+body.theme-light .contact-item-label {
+  color: #a45d3b !important;
+}
+body.theme-light .contact-item-val {
+  color: #4b3d34 !important;
+}
+body.theme-light .contact-item-val a {
+  color: #8b4a2b !important;
+}
+body.theme-light .contact-item-val a:hover {
+  color: #5c2f19 !important;
+}
